@@ -1,5 +1,5 @@
 const BookerLink = ({ children, className = '' }) => (
-  <a className={className} href="https://cal.com/ninetyeightmedia/biznus-chat">{children}</a>
+  <a className={className} href="/contact">{children}</a>
 );
 
 export default function Home() {
