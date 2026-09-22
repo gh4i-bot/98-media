@@ -1,13 +1,11 @@
+import SiteHeader from './components/SiteHeader';
 const BookerLink = ({ children, className = '' }) => (
   <a className={className} href="/contact">{children}</a>
 );
 
 export default function Home() {
   return <main>
-    <header className="nav shell">
-      <a href="#top" aria-label="98 Media home"><img className="brand" src="/98-media-header.svg" alt="98 Media" /></a>
-      <div className="nav-right"><span>Facebook advertising</span><a className="nav-link" href="/about">About</a><BookerLink className="nav-link">Book a Biznus chat ↗</BookerLink></div>
-    </header>
+    <SiteHeader />
 
     <section className="hero shell" id="top">
       <div className="eyebrow"><span className="dot"/> Strategy · Creative · Campaign systems</div>
@@ -41,10 +39,10 @@ export default function Home() {
 
     <section className="work shell">
       <div className="section-tag">03 / Creative in motion</div>
-      <div className="work-grid">
-        <article className="case case-one"><div className="case-no">A / 01</div><div className="case-copy"><h3>National<br/><em>Suit Brand</em></h3><p>Creative built to turn familiar product benefits into memorable hooks, earn attention, and move more shoppers toward the sale.</p><blockquote>“Limited stock,<br/>unlimited style.”</blockquote></div><div className="figure suit">98</div></article>
-        <article className="case case-two"><div className="case-no">B / 02</div><div className="wave" aria-hidden="true">∿∿∿∿</div><div className="case-copy"><h3>Music-Tech<br/><em>Product</em></h3><p>A performance-led montage built to make musicians stop, listen, and understand the product fast.</p></div></article>
-      </div>
+      <div className="work-grid">{[
+        {id:'A / 01',className:'case-one',mark:'98',title:'National',subtitle:'Suit Brand',description:'Creative built to turn familiar product benefits into memorable hooks, earn attention, and move more shoppers toward the sale.',line:'Limited stock, unlimited style.'},
+        {id:'B / 02',className:'case-two',mark:'∿',title:'Music-Tech',subtitle:'Product',description:'A performance-led montage built to make musicians stop, listen, and understand the product fast.',line:'Stop. Listen. Understand.'}
+      ].map(({id,className,mark,title,subtitle,description,line})=><article className={`case ${className}`} key={id}><div className="case-no">{id}</div><div className="case-mark" aria-hidden="true">{mark}</div><div className="case-copy"><h3>{title}<br/><em>{subtitle}</em></h3><p>{description}</p><blockquote>“{line}”</blockquote></div></article>)}</div>
     </section>
 
     <section className="services shell">

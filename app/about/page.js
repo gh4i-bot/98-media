@@ -1,3 +1,4 @@
+import SiteHeader from '../components/SiteHeader';
 export const metadata = {
   title: 'About Cameron O’Brien | 98 Media',
   description: 'The read comes before the spend. Meet Cameron O’Brien, founder of 98 Media.',
@@ -5,10 +6,7 @@ export const metadata = {
 
 export default function About() {
   return <main className="about-page">
-    <header className="nav shell">
-      <a href="/" aria-label="98 Media home"><img className="brand" src="/98-media-header.svg" alt="98 Media" /></a>
-      <div className="nav-right"><a href="/" className="nav-link">Home</a><a href="/contact" className="nav-link">Book a Biznus chat ↗</a></div>
-    </header>
+    <SiteHeader />
 
     <section className="about-hero shell">
       <div className="section-tag">About / Cameron O’Brien</div>

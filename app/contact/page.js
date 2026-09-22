@@ -1,3 +1,4 @@
+import SiteHeader from '../components/SiteHeader';
 import Script from 'next/script';
 
 export const metadata = {
@@ -7,10 +8,7 @@ export const metadata = {
 
 export default function Contact() {
   return <main className="contact-page">
-    <header className="nav shell">
-      <a href="/" aria-label="98 Media home"><img className="brand" src="/98-media-header.svg" alt="98 Media" /></a>
-      <div className="nav-right"><span>Facebook advertising</span><a className="nav-link" href="/">Back home ↗</a></div>
-    </header>
+    <SiteHeader />
 
     <section className="contact-hero shell">
       <div className="section-tag">Let’s talk biznus</div>
