@@ -52,7 +52,7 @@ export default function Home() {
           ['02','Strategy & campaign systems','Audience, offer, funnel, follow-up, measurement, and the campaign structure tying it together.'],
           ['03','Creative that earns attention','Concepts, copy, design, video, testing, and iteration shaped by what the market says back.'],
           ['04','Management & optimization','Hands-on campaign management, ROI tracking, conversion analysis, and better next moves.']
-        ].map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p><b>↗</b></article>)}
+        ].map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p></article>)}
       </div>
     </section>
 
