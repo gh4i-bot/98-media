@@ -10,11 +10,11 @@ export default function About() {
 
     <section className="about-hero shell">
       <div className="section-tag">About / Cameron O’Brien</div>
-      <h1>The read comes<br/><em>before the spend.</em></h1>
+      <h1><span className="keep-line">The read comes</span><br/><em>before the spend.</em></h1>
     </section>
 
     <section className="about-story shell">
-      <div className="about-mark">98</div>
+      <div className="about-portrait"><img src="/cameron-obrien.png" alt="Cameron O’Brien"/></div>
       <div className="about-copy">
         <p className="about-lede">I'm Cameron O'Brien. I've managed more than $12.5M in Facebook ad spend, working across strategy, creative, campaigns, funnels, and the follow-up systems that turn attention into revenue.</p>
         <p>I always start with the numbers. COGS, customer value, margins, offer, and follow-up tell us what an ad account can support before a dollar moves. Then the creative goes into market, the response comes back, and the next decision gets sharper.</p>
