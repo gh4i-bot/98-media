@@ -25,6 +25,7 @@ export const metadata = {
   title: '98 Media | Facebook Ads, Read Through the Numbers',
   description: 'Facebook advertising strategy, creative, and campaign systems grounded in your margins, customer value, offer, and follow-up.',
   icons: { icon: '/98-media-square.svg' },
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({ children }) {
