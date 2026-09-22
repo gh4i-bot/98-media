@@ -34,9 +34,7 @@ export default function Home() {
       <div className="stats">
         <article><strong>$12.5M<sup>+</sup></strong><p>in Facebook ad spend managed - and counting.</p></article>
         <article><strong>$620K</strong><p>monthly agency volume at the high-water mark.</p></article>
-        <article><strong>5.0</strong><p>stars on every completed Upwork contract.</p></article>
       </div>
-      <div className="upwork-line"><span>$100K+ earned on Upwork</span><span>94% Job Success Score</span></div>
     </section>
 
     <section className="work shell">
