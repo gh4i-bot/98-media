@@ -52,10 +52,9 @@ export default function Home() {
       <div className="service-intro"><h2><span className="keep-line">Big-picture thinking.</span><br/><em>Close-up execution.</em></h2><p>Bring 98 Media in for the read, the build, or the ongoing system.</p></div>
       <div className="service-list">
         {[
-          ['01','Economics & opportunity','A clear read on what your margins, customer value, offer, and acquisition process can support.'],
-          ['02','Strategy & campaign systems','Audience, offer, funnel, follow-up, measurement, and the campaign structure tying it together.'],
-          ['03','Creative that earns attention','Concepts, copy, design, video, testing, and iteration shaped by what the market says back.'],
-          ['04','Management & optimization','Hands-on campaign management, ROI tracking, conversion analysis, and better next moves.']
+          ['01','The read','Before money moves, we read the economics: COGS, customer value, margins, offer, follow-up, and what the account is already telling us. You get a clear answer on what paid acquisition can support and where the opportunity sits.'],
+          ['02','The build','We turn that read into the campaign: offer, audience, creative, landing path, tracking, and follow-up. Everything is built as one acquisition system, ready to put into market and learn from.'],
+          ['03','The ongoing system','We manage the campaigns, study the response, and improve the next iteration. Media, creative, conversion, and ROI stay in one view, with decisions tied to what the numbers actually say.']
         ].map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p></article>)}
       </div>
     </section>
