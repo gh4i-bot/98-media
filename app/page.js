@@ -16,10 +16,9 @@ export default function Home() {
         <p className="lede">Facebook ads built from the economics up. Your COGS, customer value, margins, offer, and follow-up come before the media plan.</p>
         <MailLink className="button">Let’s look at the opportunity <span>↗</span></MailLink>
       </div>
-      <div className="orbit" aria-hidden="true"><span>98</span><i>MEDIA · STRATEGY · CREATIVE · </i></div>
     </section>
 
-    <section className="ticker" aria-label="Experience highlights"><div>$12.5M+ MANAGED SPEND <b>✦</b> UP TO $620K / MONTH <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></div></section>
+    <section className="ticker" aria-label="Experience highlights"><div>$12.5M+ MANAGED SPEND <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></div></section>
 
     <section className="thesis shell">
       <div className="section-tag">01 / The point of view</div>
@@ -33,7 +32,6 @@ export default function Home() {
       <div className="section-tag light">02 / The receipts</div>
       <div className="stats">
         <article><strong>$12.5M<sup>+</sup></strong><p>in Facebook ad spend managed - and counting.</p></article>
-        <article><strong>$620K</strong><p>monthly agency volume at the high-water mark.</p></article>
       </div>
     </section>
 
