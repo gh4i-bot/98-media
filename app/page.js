@@ -1,12 +1,12 @@
-const MailLink = ({ children, className = '' }) => (
-  <a className={className} href="mailto:cameron@brasshelm.com?subject=98%20Media%20-%20Let%27s%20talk">{children}</a>
+const BookerLink = ({ children, className = '' }) => (
+  <a className={className} href="https://cal.com/ninetyeightmedia/biznus-chat">{children}</a>
 );
 
 export default function Home() {
   return <main>
     <header className="nav shell">
       <a href="#top" aria-label="98 Media home"><img className="brand" src="/98-media-header.svg" alt="98 Media" /></a>
-      <div className="nav-right"><span>Facebook advertising</span><MailLink className="nav-link">Start a conversation ↗</MailLink></div>
+      <div className="nav-right"><span>Facebook advertising</span><BookerLink className="nav-link">Book a Biznus chat ↗</BookerLink></div>
     </header>
 
     <section className="hero shell" id="top">
@@ -14,7 +14,7 @@ export default function Home() {
       <h1><span className="keep-line hero-line">Creative that converts.</span><br/><em>Numbers that prove it.</em></h1>
       <div className="hero-bottom">
         <p className="lede">Facebook ads built from the economics up. Your COGS, customer value, margins, offer, and follow-up come before the media plan.</p>
-        <MailLink className="button">Let’s look at the opportunity <span>↗</span></MailLink>
+        <BookerLink className="button">Book a Biznus chat <span>↗</span></BookerLink>
       </div>
     </section>
 
@@ -62,7 +62,7 @@ export default function Home() {
       <div className="shell close-inner">
         <img src="/98-media-square.svg" alt="" />
         <div><div className="section-tag light">The next move</div><h2>There’s a real opportunity in your numbers.<br/><em>Let’s find it.</em></h2></div>
-        <MailLink className="button inverse">Start the conversation <span>↗</span></MailLink>
+        <BookerLink className="button inverse">Book a Biznus chat <span>↗</span></BookerLink>
       </div>
     </section>
 
