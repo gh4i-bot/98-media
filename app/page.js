@@ -6,7 +6,7 @@ export default function Home() {
   return <main>
     <header className="nav shell">
       <a href="#top" aria-label="98 Media home"><img className="brand" src="/98-media-header.svg" alt="98 Media" /></a>
-      <div className="nav-right"><span>Facebook advertising</span><BookerLink className="nav-link">Book a Biznus chat ↗</BookerLink></div>
+      <div className="nav-right"><span>Facebook advertising</span><a className="nav-link" href="/about">About</a><BookerLink className="nav-link">Book a Biznus chat ↗</BookerLink></div>
     </header>
 
     <section className="hero shell" id="top">
