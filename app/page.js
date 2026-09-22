@@ -11,14 +11,16 @@ export default function Home() {
 
     <section className="hero shell" id="top">
       <div className="eyebrow"><span className="dot"/> Strategy · Creative · Campaign systems</div>
-      <h1>Creative that converts.<br/><em>Numbers that prove it.</em></h1>
+      <h1><span className="keep-line hero-line">Creative that converts.</span><br/><em>Numbers that prove it.</em></h1>
       <div className="hero-bottom">
         <p className="lede">Facebook ads built from the economics up. Your COGS, customer value, margins, offer, and follow-up come before the media plan.</p>
         <MailLink className="button">Let’s look at the opportunity <span>↗</span></MailLink>
       </div>
     </section>
 
-    <section className="ticker" aria-label="Experience highlights"><div>$12.5M+ MANAGED SPEND <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></div></section>
+    <section className="ticker" aria-label="Experience highlights"><div className="ticker-track">
+      {[0,1].map((copy)=><span className="ticker-copy" aria-hidden={copy===1} key={copy}>$12.5M+ MANAGED SPEND <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></span>)}
+    </div></section>
 
     <section className="thesis shell">
       <div className="section-tag">01 / The point of view</div>
