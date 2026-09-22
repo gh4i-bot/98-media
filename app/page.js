@@ -33,7 +33,7 @@ export default function Home() {
     <section className="proof shell">
       <div className="section-tag light">02 / The receipts</div>
       <div className="stats">
-        <article><strong>$12.5M<sup>+</sup></strong><p>in Facebook ad spend managed - and counting.</p></article>
+        <article><strong>$12.5M<sup>+</sup></strong><p>in Facebook ad spend managed.</p></article>
       </div>
     </section>
 
