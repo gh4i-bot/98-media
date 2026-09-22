@@ -45,7 +45,7 @@ export default function Home() {
 
     <section className="services shell">
       <div className="section-tag">04 / The seat</div>
-      <div className="service-intro"><h2>Big-picture thinking.<br/><em>Close-up execution.</em></h2><p>Bring 98 Media in for the read, the build, or the ongoing system.</p></div>
+      <div className="service-intro"><h2><span className="keep-line">Big-picture thinking.</span><br/><em>Close-up execution.</em></h2><p>Bring 98 Media in for the read, the build, or the ongoing system.</p></div>
       <div className="service-list">
         {[
           ['01','Economics & opportunity','A clear read on what your margins, customer value, offer, and acquisition process can support.'],
