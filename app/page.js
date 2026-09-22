@@ -26,7 +26,7 @@ export default function Home() {
       <div className="section-tag">01 / The point of view</div>
       <div className="thesis-copy">
         <h2>Media buying is not separate from <em>the message.</em></h2>
-        <p>The ad, the offer, and the economics are one system. 98 Media puts creative into market, reads the response, and makes the next iteration sharper.</p>
+        <p>The ad, the offer, and the economics are one system. We put creative into market, read the response, and make the next iteration sharper.</p>
       </div>
     </section>
 
@@ -40,7 +40,7 @@ export default function Home() {
     <section className="work shell">
       <div className="section-tag">03 / Creative in motion</div>
       <div className="work-grid">
-        <article className="case case-one"><div className="case-no">A / 01</div><div className="case-copy"><h3>National<br/><em>Suit Brand</em></h3><p>Superhero transformations. Skateboarding suits. A sharp product story that made formalwear move.</p><blockquote>“Limited stock,<br/>unlimited style.”</blockquote></div><div className="figure suit">98</div></article>
+        <article className="case case-one"><div className="case-no">A / 01</div><div className="case-copy"><h3>National<br/><em>Suit Brand</em></h3><p>Creative built to turn familiar product benefits into memorable hooks, earn attention, and move more shoppers toward the sale.</p><blockquote>“Limited stock,<br/>unlimited style.”</blockquote></div><div className="figure suit">98</div></article>
         <article className="case case-two"><div className="case-no">B / 02</div><div className="wave" aria-hidden="true">∿∿∿∿</div><div className="case-copy"><h3>Music-Tech<br/><em>Product</em></h3><p>A performance-led montage built to make musicians stop, listen, and understand the product fast.</p></div></article>
       </div>
     </section>
