@@ -19,7 +19,9 @@ export default function Home() {
     </section>
 
     <section className="ticker" aria-label="Experience highlights"><div className="ticker-track">
-      {[0,1].map((copy)=><span className="ticker-copy" aria-hidden={copy===1} key={copy}>$12.5M+ MANAGED SPEND <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></span>)}
+      {[0,1].map((copy)=><div className="ticker-copy" aria-hidden={copy===1} key={copy}>
+        {[0,1,2].map((set)=><span className="ticker-set" key={set}>$12.5M+ MANAGED SPEND <b>✦</b> CREATIVE THAT CONVERTS <b>✦</b> ECONOMICS FIRST <b>✦</b></span>)}
+      </div>)}
     </div></section>
 
     <section className="thesis shell">
