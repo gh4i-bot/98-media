@@ -1,4 +1,4 @@
-import { DM_Sans, Libre_Caslon_Display } from 'next/font/google';
+import { DM_Sans, Libre_Caslon_Display, IBM_Plex_Serif } from 'next/font/google';
 import './globals.css';
 
 const sans = DM_Sans({
@@ -21,6 +21,14 @@ const editorial = Libre_Caslon_Display({
   variable: '--font-editorial',
 });
 
+const endorsement = IBM_Plex_Serif({
+  subsets: ['latin'],
+  weight: '400',
+  style: 'normal',
+  display: 'swap',
+  variable: '--font-endorsement',
+});
+
 export const metadata = {
   title: '98 Media | Facebook Ads, Read Through the Numbers',
   description: 'Facebook advertising strategy, creative, and campaign systems grounded in your margins, customer value, offer, and follow-up.',
@@ -29,5 +37,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="en" className={`${sans.variable} ${editorial.variable}`}><body>{children}</body></html>;
+  return <html lang="en" className={`${sans.variable} ${editorial.variable} ${endorsement.variable}`}><body>{children}</body></html>;
 }
