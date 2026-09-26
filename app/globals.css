@@ -41,3 +41,10 @@
  .service-intro h2,.thesis h2,.close-inner h2,.about-close h2{font-size:clamp(43px,12vw,50px)}
 }
 @media(max-width:380px){.hero .eyebrow{font-size:9px}.hero h1{font-size:35px}.brand{width:132px}}
+
+/* The BrassHelm endorsement follows the type baseline, not the image box center. */
+.header-identity{display:flex;align-items:center;gap:24px;min-width:0}
+.endorsement{display:inline-flex;align-items:baseline;gap:.28em;white-space:nowrap;font-family:var(--font-endorsement),Georgia,serif;font-size:17px;font-weight:400;line-height:1;color:var(--ink)}
+.endorsement img{display:inline-block;width:auto;height:.95em;align-self:baseline;vertical-align:baseline;transform:translateY(.055em)}
+@media(max-width:800px){.header-identity{gap:12px}.endorsement{font-size:11px;gap:.2em}.endorsement img{height:.95em}.nav .brand{width:142px;height:52px}}
+@media(max-width:380px){.nav .brand{width:132px}.header-identity{gap:8px}.endorsement{font-size:10px}}
