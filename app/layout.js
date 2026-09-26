@@ -5,7 +5,7 @@ const sans = DM_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   style: ['normal'],
-  display: 'swap',
+  display: 'optional',
   preload: true,
   adjustFontFallback: true,
   variable: '--font-sans',
@@ -15,7 +15,7 @@ const editorial = Libre_Caslon_Display({
   subsets: ['latin'],
   weight: '400',
   style: 'normal',
-  display: 'swap',
+  display: 'optional',
   preload: true,
   adjustFontFallback: true,
   variable: '--font-editorial',
@@ -25,7 +25,7 @@ const endorsement = IBM_Plex_Serif({
   subsets: ['latin'],
   weight: '400',
   style: 'normal',
-  display: 'swap',
+  display: 'optional',
   variable: '--font-endorsement',
 });
 
